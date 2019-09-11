@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-center">Welcome to Chatire!</h1>
+    <h1 class="text-center">Welcome to LunarChats!</h1>
     <div id="auth-container" class="row">
       <div class="col-sm-4 offset-sm-4">
         <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
@@ -56,20 +56,16 @@
   </div>
 </template>
 
-
 <script>
-  const $ = window.jQuery // JQuery
-
-  export default {
-    data () {
-      return {
-        email: '', username: '', password: ''
-      }
+// const $ = window.jQuery // JQuery
+export default {
+  data () {
+    return {
+      email: '', username: '', password: ''
     }
   }
+}
 </script>
-
-
 <style scoped>
   #auth-container {
     margin-top: 50px;
@@ -79,6 +75,3 @@
     padding-top: 20px;
   }
 </style>
-
-
-
